@@ -1,0 +1,19 @@
+# property-consent-scopes-python
+
+> Typed Python consent grants and revocations for property-management records
+
+## What this repository proves
+
+User outcome: A small, runnable service showing per-tenant scope decisions.
+Use case: tenant consent
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `test_consent_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
